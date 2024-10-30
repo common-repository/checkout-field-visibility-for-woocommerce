@@ -1,0 +1,25 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.zamartz-checkout-notice {
+  background: #fff;
+  border: 1px solid #ccd0d4;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  padding: 5px 12px;
+  margin: 5px 0 10px;
+}
+.zamartz-info-notice {
+  border-left-color: #00a0d2;
+}
+.zamartz-success-notice {
+  border-left-color: #46b450;
+}
+.zamartz-warning-notice {
+  border-left-color: #ffb900;
+}
+.zamartz-error-notice {
+  border-left-color: #dc3232;
+}

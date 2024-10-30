@@ -1,0 +1,30 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.zamartz-wrapper .woo-checkout-add-rule-set-wrapper  {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.zamartz-wrapper .woo-checkout-add-rule-set-wrapper .woo-checkout-add-rule-set {
+    margin: 15px 0px 15px 0;
+    padding: 3px 8px 3px 3px;
+    display: inline-block;
+}
+
+.zamartz-wrapper .woo-checkout-add-rule-set:before {
+    font: normal 13px dashicons;
+    content: "\f132";
+    float: left;
+    padding: 4px 3px 0 0;
+}
+
+.zamartz-wrapper .woo-checkout-add-rule-set-wrapper .dashicons.dashicons-update {
+    margin: 20px 5px 0 0;
+}
+
+.zamartz-wrapper input.woo-checkout-rule-set-priority{
+    width: 60px !important;
+}
